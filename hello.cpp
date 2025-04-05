@@ -46,6 +46,14 @@ int main() {
     std::cout << "Multiplicar (" << a << " * " << b << "): " << multiplicar(a, b) << std::endl;
     std::cout << "Dividir (" << a << " / " << b << "): " << dividir(a, b) << std::endl;
 
+    // Ordenar el vector en orden ascendente
+    //std::sort(numeros.begin(), numeros.end());
+    // Ordenar el vector en orden descendente
+    // std::sort(numeros.rbegin(), numeros.rend());
+    // Alternativa: std::sort(numeros.begin(), numeros.end(), std::greater<int>());
+
+    
+
     return 0;
 }
 
